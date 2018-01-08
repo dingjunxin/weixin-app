@@ -1,0 +1,10 @@
+#container{
+	width: 100%;
+	height: 100%;
+	/*background-color: lightcoral;*/
+	position: fixed;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	
+}

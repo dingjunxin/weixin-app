@@ -1,0 +1,50 @@
+#title{
+	width: 100%;
+	min-height:30px;
+	background-color: #212121;
+	text-align: center;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	color: white;
+	line-height: 30px;
+	font-weight: 700;
+}
+#title-left{
+	
+	width: 33%;
+	
+	
+	
+	
+	
+	
+}
+#title-center{
+	width: 34%;
+	line-height: 30px;
+	font-weight: 700;
+}
+#title-right {
+	width: 33%;
+	
+	/*  */
+	position: relative;
+	display: flex;
+	flex-flow: row ;
+	justify-content: flex-end;
+	align-items: center;
+	
+	
+}
+
+/* 加号  */
+#add {
+	height: 22px;width: 22px;
+	
+	background: url(../img/icon/material/加号.svg) no-repeat;
+	background-size: contain;
+
+
+}
+

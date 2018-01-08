@@ -1,0 +1,96 @@
+#app_bar{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #212121;
+	color: white;
+	font-size: 15px;
+}
+#app_bar-left{
+	width: 33%;
+	height: 40px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+#sign{
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-end;
+	
+	
+}
+#sign div:nth-child(1){
+	width: 3px;
+	height: 6px
+}
+#sign div:nth-child(2){
+	width: 3px;
+	height: 9px
+}
+#sign div:nth-child(3){
+	width: 3px;
+	height: 12px
+}
+#sign div:nth-child(4){
+	width: 3px;
+	height: 15px
+}
+.signal{
+	border: 1px white solid;
+	background-color: white;
+	margin: 1px;
+	border-radius: 5px;
+}
+.nosignal{
+	border: 1px white solid;
+	border-radius: 5px;
+	margin: 1px;
+}
+.row-noware{
+	display: flex;
+	flex-flow: row nowrap;
+}
+#app_bar-center{
+	width: 34%;
+	height: 40px;
+	
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center; /
+}
+#app_bar-right{
+	width:33%;
+	height: 40px;
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-end;  
+	align-items: center;  /* 纵向布局 */
+}
+#app_bar-right div:nth-child(2) {
+	border: 1px white solid;
+	height: 11px;
+	width: 30px;
+	margin-left: 4px;
+	border-radius: 2px;
+}
+
+/* 电池里面的电量 */
+#app_bar-right div:nth-child(2) div {
+	
+	height: 11px;
+	width: 25px;
+	background-color: #76ff03;
+}
+
+/* 电池的正极 */
+#app_bar-right div:nth-child(3) {
+	background: white;
+	height: 7px;
+	width: 2px;
+	margin-right: 6px;
+	border-radius: 2px;
+}
