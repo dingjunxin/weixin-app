@@ -5,15 +5,28 @@
 	justify-content: space-between;
 	background-color: #212121;
 	color: white;
-	font-size: 15px;
+	font-size: 76%;
+	font-weight: 100;
 }
 #app_bar-left{
 	width: 33%;
 	height: 40px;
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: space-between;
+	
 	align-items: center;
+}
+#operator{
+	width: 55px;
+	height: 18px;
+	margin: 1.5px;
+	text-align: center;
+	line-height: 18px;
+}
+#xg {
+	width: 20px;
+	height: 18px;
+	line-height: 18px;
 }
 #sign{
 	display: flex;
@@ -76,14 +89,17 @@
 	width: 30px;
 	margin-left: 4px;
 	border-radius: 2px;
+	display: flex;
+	align-items: center;
 }
 
 /* 电池里面的电量 */
 #app_bar-right div:nth-child(2) div {
 	
-	height: 11px;
+	height: 9px;
 	width: 25px;
-	background-color: #76ff03;
+	background-color: white;
+	margin-left: .5px;
 }
 
 /* 电池的正极 */

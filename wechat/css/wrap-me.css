@@ -1,0 +1,163 @@
+#wrap-me {
+	background-color: rgb(224, 224, 224);
+	flex: 1;
+	overflow-y: scroll;
+	display: none;
+}
+
+.me {
+	width: 100%;
+	flex: 2;
+	background-color: rgb(250, 250, 250);
+	margin-top: 30px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.img {
+	flex: 1;
+	margin-left: 5px;
+	text-align: center;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.number {
+	flex: 5;
+	margin-left: 5px;
+	width: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.number_name {
+	flex: 1;
+	width: 100%;
+	font-size: 80%;
+	display: flex;
+	align-items: flex-end;
+}
+
+.number_WeChat_ID {
+	flex: 1;
+	width: 100%;
+	font-size: 80%;
+}
+
+.mycode {
+	flex: 1;
+	background-color: rgb(250, 250, 250);
+	align-items: flex-end;
+	margin-left: 5px;
+	margin-right: 4px;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.general-div {
+	margin-left: 5px;
+	flex: 1;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 4px;
+}
+
+.general-div_2 {
+	margin-left: 5px;
+	flex: 1;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.general-div2 {
+	margin-left: 1px;
+	text-align: left;
+	font-family: "微软雅黑";
+	flex: 6;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.general-div3 {
+	margin-left: 1px;
+	flex: 1;
+	align-items: center;
+	text-align: right;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.money {
+	margin-top: 30px;
+	width: 100%;
+	flex: 1;
+	background-color: rgb(250, 250, 250);
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.collection {
+	margin-top: 30px;
+	width: 100%;
+	flex: 1;
+	background-color: rgb(250, 250, 250);
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.photo {
+	margin-top: 1px;
+	width: 100%;
+	flex: 1;
+	background-color: rgb(250, 250, 250);
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.card {
+	margin-top: 1px;
+	width: 100%;
+	flex: 1;
+	background-color: rgb(250, 250, 250);
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.expression {
+	margin-top: 1px;
+	width: 100%;
+	flex: 1;
+	background-color: rgb(250, 250, 250);
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.design {
+	margin-top: 1px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+	width: 100%;
+	flex: 1;
+	background-color: rgb(250, 250, 250);
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}

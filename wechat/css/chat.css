@@ -1,0 +1,171 @@
+.title_left_d {
+	width: 33%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.title_left_left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.title_left_right {
+	height: 22px;
+	width: 22px;
+	background: url(../img/icon/record/头像.svg) no-repeat;
+	background-size: contain;
+}
+
+#dynamic_d {
+	height: 100%;
+	width: 100%;
+	background-color: rgb(240, 244, 195);
+	flex: 1;
+	overflow: scroll;
+	z-index: -1;
+}
+
+.container_d {
+	width: 100%;
+	height: 15%;
+	margin-top: 10px;
+	margin-left: 5px;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.img_d_left {
+	height: 100%;
+	border: 1px bisque solid;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+}
+
+.context_d {
+	/*对话框*/
+	flex: 6;
+	height: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.img_d_right {
+	height: 100%;
+	flex: 1;
+}
+
+.color_d_left {
+	background-color: white;
+}
+
+.color_d_right {
+	background-color: rgb(178, 255, 89);
+}
+
+.container_d_right {
+	width: 100%;
+	height: 15%;
+	margin-top: 10px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.img_d_right_2 {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex: 1;
+}
+
+.context_d_right {
+	/*对话框*/
+	flex: 6;
+	height: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.context-left_d {
+	border-radius: 10px 0px 10px 0px;
+}
+
+.context-left_d div {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.context-right_d {
+	border-radius: 0px 10px 0px 10px;
+}
+
+.context-right_d div {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+
+/*底页*/
+
+#menus_d {
+	width: 100%;
+	height: 10%;
+	display: flex;
+	flex-flow: row nowrap;
+	box-shadow: 0px 1px 1px gainsboro inset;
+	background-color: white;
+	position: absolute;
+	bottom: 0px;
+	z-index: 1;
+}
+
+.menu-div_d {
+	flex: 1;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-div_d_center {
+	flex: 6;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.menu-div_d_center div {
+	height: 26px;
+	width: 99%;
+	border: 1px solid gainsboro;
+	box-shadow: 0px 0px 10px gainsboro inset;
+	/* ALT+/ 可以具有自动完成功能   */
+	background-size: 16px;
+	background-position: center;
+}
+
+.menu-div_d img {
+	height: 30px;
+	width: 30px;
+	opacity: .7;
+}
+
+.font-menu_d {
+	margin-top: 4px;
+	font-family: "微软雅黑";
+	font-weight: 200;
+	font-size: 90%
+}

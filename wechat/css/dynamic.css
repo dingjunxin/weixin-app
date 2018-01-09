@@ -1,12 +1,12 @@
-#dynamic {
+#dynamic{
+	height: 100%;
 	width: 100%;
 	background-color: rgb(224, 224, 224);
 	flex: 1;
 	overflow: scroll;
-	display: flex;
-	flex-flow: column nowrap;
+	
+	
 }
-
 #search {
 	height: 40px;
 	/*background-color: #008B8B;*/
@@ -27,6 +27,9 @@
 	background: url(../img/icon/control/搜索.svg) no-repeat;
 	background-size: 16px;
 	background-position: center;
+	
+	
+	
 }
 #search input:focus {
 	background: none;
@@ -40,172 +43,86 @@
 }
 .content{
 	height: 64px;
-	background-color: #fafafa;
+	background-color: #FAFAFA;
 	border-bottom: 1px gainsbro solid;
 	padding: 0px 4px 0px 4px;
-}
-::-webkit-scrollbar {
-	display: none;
-}
-/*我 页面css*/
-.me {
-	width: 100%;
-	flex: 2;
-	background-color: rgb(250, 250, 250);
-	margin-top: 30px;
 	display: flex;
 	flex-flow: row nowrap;
-}
-
-.img {
-	flex: 2;
-	margin-left: 5px;
-	display: flex;
-	flex-flow: row nowrap;
+	justify-content: space-between;
 	align-items: center;
-	justify-content: center;
-	
-	
 }
-.img div{
-	width: 100%;
-	height: 100%;
+.content-left{
+	height: 52px;
+	width: 52px;
+	border-radius: 6px;
+	position: relative;
 }
-
-.number {
-	flex:5;
-	margin-left: 5px;
-	width: 100%;
-	display: flex;
-	flex-flow:column nowrap;
-	
-	
+.content-left img{
+	height: 52px;
+	width: 52px;
 }
-.number_name{
-	flex: 1;
-	width: 100%;
-	font-size: 80%;
-	display: flex;
-	align-items: flex-end;
-	
+.username {
+	width: 100%; height: 24px;
+	font-size:16px;
+	color: #424242
 }
-.number_WeChat_ID{
-	flex: 1;
-	width: 100%;
-	font-size: 80%;
-}
-.mycode {
-	flex: 1;
-	background-color: rgb(250, 250, 250);
-	align-items: flex-end;
-	margin-left: 5px;
-	margin-right: 4px;
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
+.text {
+	width: 100%; height: 20px;
+	font-size:14px;
+	color: #9e9e9e;
 }
 
-.general-div {
-	margin-left: 5px;
-	flex: 1;
-	height: 100%;
-	display: flex;
-	align-items:center;
-	justify-content: center;
-	padding-top: 4px;
-}
-.general-div_2 {
-	margin-left: 5px;
-	flex: 1;
-	height: 100%;
-	display: flex;
-	align-items:center;
-	justify-content: center;
+.text-radio {
+	width: 100%; height: 20px;
+	font-size:14px;
+	color: #bf360c;
 }
 
-.general-div2 {
-	margin-left: 1px;
-	text-align: left;
-	font-family: "微软雅黑";
-	flex: 6;
-	height: 100%;
-	
+.content-center{
+	height: 52px;
+	flex: 1;
+	padding-left: 8px;
 	display: flex;
-	align-items:center;
-	justify-content: flex-start;
+	flex-flow: column;
+	justify-content: space-around;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.username {
+	width: 100%; height: 24px;
+	font-size:16px;
+	color: #424242
+}
+.text {
+	width: 100%; height: 20px;
+	font-size:14px;
+	color: #9e9e9e;
 }
 
-.general-div3 {
-	margin-left: 1px;
-	flex: 1;
-	align-items: center;
+.text-radio {
+	width: 100%; height: 20px;
+	font-size:14px;
+	color: #bf360c;
+}
+
+.content-right{
+	height: 52px;
+	width: 60px;
+	font-size: 10px;
 	text-align: right;
-	height: 100%;
-		display: flex;
-	align-items:center;
-	justify-content:flex-end;
+	color: #9e9e9e;
 }
-.money {
-	margin-top: 30px;
-	width: 100%;
-	flex: 1;
-	background-color: rgb(250, 250, 250);
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: center;
-}
-
-.collection {
-	margin-top: 30px;
-	width: 100%;
-	flex: 1;
-	background-color: rgb(250, 250, 250);
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: center;
-	justify-content: center;
-}
-
-.photo {
-	margin-top: 1px;
-	width: 100%;
-	flex: 1;
-	background-color: rgb(250, 250, 250);
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: center;
-}
-
-.card {
-	margin-top: 1px;
-	width: 100%;
-	flex: 1;
-	background-color: rgb(250, 250, 250);
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: center;
-}
-
-.expression {
-	margin-top: 1px;
-	width: 100%;
-	flex: 1;
-	background-color: rgb(250, 250, 250);
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: center;
-}
-
-.design {
-	margin-top: 1px;
-	margin-top: 20px;
-	margin-bottom: 60px;
-	width: 100%;
-	flex: 1;
-	background-color: rgb(250, 250, 250);
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: center;
+.new-msg{
+	height: 14px; width: 14px;
+	border-radius: 50%;
+	background-color: red;
+	font-family: "微软雅黑";
+	font-weight: 600;
+	font-size: 10px;
+	color: white;
+	line-height: 14px;
+	text-align: center;
+	
+	position: relative;
+	top: -58px; left: 45px;
 }
